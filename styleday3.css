@@ -1,12 +1,21 @@
-body {
-	font-family: 'Oswald', 'sans-serif';
-	margin: 0;
-	padding: 0;
+pre, p {
+    font-size: 1.5em;
+    color: #FE7F88;
+    background-color: transparent;
 }
 
-.container {
-	margin: 0 auto;
-	width: 980px;
+div {
+  background-image: url("http://phish.com/wp-content/uploads/2015/08/08-01-15_DPV_7264_Phish_Atlanta_GA_by_Dave_Vann.jpg");
+}
+
+p {
+  background-image: none;
+}
+
+.catsandstars {
+  background-image:  url("https://developer.mozilla.org/samples/cssref/images/startransparent.gif"),
+                     url("https://mdn.mozillademos.org/files/7693/catfront.png");
+  background-color: transparent;
 }
 
 .overlay {
